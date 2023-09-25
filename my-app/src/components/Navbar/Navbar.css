@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  border: 1px solid red;
+  padding: 10px 15px;
+  align-items: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  margin-left: 25px;
+  list-style-type: none;
+}
+.links > li {
+  margin: 0 20px;
+  font-size: 20px;
+}
